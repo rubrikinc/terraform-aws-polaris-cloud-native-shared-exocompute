@@ -109,19 +109,19 @@ module "polaris-aws-cloud-native-shared-exocompute" {
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >=1.5.6 |
-| <a name="requirement_polaris"></a> [polaris](#requirement\_polaris) | =0.8.0-beta.8 |
+| <a name="requirement_polaris"></a> [polaris](#requirement\_polaris) | =0.8.0-beta.16 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_polaris"></a> [polaris](#provider\_polaris) | 0.8.0-beta.8 |
+| <a name="provider_polaris"></a> [polaris](#provider\_polaris) | 0.8.0-beta.16 |
 
 ## Resources
 
 | Name | Type |
 |------|------|
-| [polaris_aws_exocompute.shared](https://registry.terraform.io/providers/rubrikinc/polaris/0.8.0-beta.8/docs/resources/aws_exocompute) | resource |
+| [polaris_aws_exocompute.shared](https://registry.terraform.io/providers/rubrikinc/polaris/0.8.0-beta.16/docs/resources/aws_exocompute) | resource |
 
 ## Modules
 
@@ -132,7 +132,7 @@ No modules.
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_rsc_aws_cnp_account_id"></a> [rsc\_aws\_cnp\_account\_id](#input\_rsc\_aws\_cnp\_account\_id) | Polaris account ID for the AWS account hosting Exocompute. | `string` | n/a | yes |
-| <a name="input_rsc_aws_exocompute_host_account_id"></a> [rsc\_aws\_exocompute\_host\_account\_id](#input\_rsc\_aws\_exocompute\_host\_account\_id) | Rubrik Security Clud account ID for the AWS account hosting Exocompute when "rsc\_aws\_exocompute\_type" is set to "Shared". | `string` | `"Set This Value"` | no |
+| <a name="input_rsc_aws_exocompute_host_account_id"></a> [rsc\_aws\_exocompute\_host\_account\_id](#input\_rsc\_aws\_exocompute\_host\_account\_id) | Rubrik Security Cloud account ID for the AWS account hosting Exocompute when "rsc\_aws\_exocompute\_type" is set to "Shared". | `string` | n/a | yes |
 | <a name="input_rsc_credentials"></a> [rsc\_credentials](#input\_rsc\_credentials) | Path to the Rubrik Security Cloud service account file. | `string` | n/a | yes |
 
 ## Outputs
